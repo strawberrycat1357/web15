@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML</h1>
+    <div id="content">畫面操作</div>
+    <button onclick="change();">點我</button>
+    <script>
+        function change(){
+            let elem=document.querySelector("#content");
+            elem.innerHTML="New Content";
+            elem.style.fontSize="30px";
+            elem.style.color="red";
+        }
+    </script>
+</body>
+</html>
